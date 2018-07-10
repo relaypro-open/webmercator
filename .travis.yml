@@ -1,0 +1,36 @@
+language: python
+
+sudo: false
+
+install:
+  - pip install --upgrade setuptools
+  - pip install tox
+
+cache:
+  directories:
+    - $HOME/.pip-cache
+
+env:
+  matrix:
+    - TOXENV=flake8
+    - TOXENV=py27
+
+# Python 3.5+ needed to be included here to avoid virtualenv error
+matrix:
+  include:
+    - python: 3.4
+      env: TOXENV=py34
+    - python: 3.5
+      env: TOXENV=py35
+    - python: 3.6
+      env: TOXENV=py36
+
+script:
+  - tox --version
+  - tox
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email: false
