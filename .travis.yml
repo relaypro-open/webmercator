@@ -1,0 +1,26 @@
+language: python
+
+sudo: false
+
+install:
+  - pip install 'tox>=3.0.0'
+
+cache:
+  directories:
+    - $HOME/.pip-cache
+
+env:
+  matrix:
+    - TOXENV=flake8
+    - TOXENV=py27
+    - TOXENV=py33
+    - TOXENV=py34
+    - TOXENV=py35
+    - TOXENV=py36
+
+script:
+  - tox --version
+  - tox
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
