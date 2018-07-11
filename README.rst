@@ -10,7 +10,7 @@ WebMercator
     :alt: CodeCov
     :target: https://codecov.io/gh/republicwireless-open/webmercator
 
-.. image:: https://img.shields.io/pypi/v/webmercator.svg
+.. image:: https://badge.fury.io/py//webmercator.svg
     :alt: PyPI
     :target: https://pypi.python.org/pypi/webmercator
 
