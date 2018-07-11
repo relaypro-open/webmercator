@@ -14,7 +14,7 @@ WebMercator
 .. image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :target: https://opensource.org/licenses/MIT
 
-WebMercator is a Python (2.7, 3.4, 3.5, 3.6) package to aid in geographic point conversion onto a Mercator projection for tile systems.
+WebMercator is a Python (2.7, 3.4, 3.5, 3.6, 3.7) package to aid in geographic point conversion onto a Mercator projection for tile systems.
 
 
 Getting Started
