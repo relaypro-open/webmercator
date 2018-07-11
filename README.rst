@@ -90,7 +90,7 @@ See also the list of [contributors](https://github.com/republicwireless-open/web
 License
 -------
 
-This project is licensed under the [MIT License](LICENSE)
+This project is licensed under the `MIT License <https://github.com/republicwireless-open/webmercator/blob/master/LICENSE>`_
 
 Acknowledgments
 ---------------
