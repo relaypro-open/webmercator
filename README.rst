@@ -3,15 +3,19 @@ WebMercator
 ===========
 
 .. image:: https://travis-ci.org/republicwireless-open/webmercator.svg?branch=master
+    :alt: TravisCI
     :target: https://travis-ci.org/republicwireless-open/webmercator
 
 .. image:: https://codecov.io/gh/republicwireless-open/webmercator/branch/master/graph/badge.svg
+    :alt: CodeCov
     :target: https://codecov.io/gh/republicwireless-open/webmercator
 
-.. image:: https://img.shields.io/pypi/v/webmercator.svg?style=flat
+.. image:: https://badge.fury.io/py//webmercator.svg
+    :alt: PyPI
     :target: https://pypi.python.org/pypi/webmercator
 
 .. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+    :alt: MIT-License
     :target: https://opensource.org/licenses/MIT
 
 WebMercator is a Python (2.7, 3.4, 3.5, 3.6, 3.7) package to aid in geographic point conversion onto a Mercator projection for tile systems.
