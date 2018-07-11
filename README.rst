@@ -30,19 +30,21 @@ Installing
 
 For bleeding edge
 
-.. code-block:: shell
+.. code-block:: bash
+
     # keeping the repo local
-    git clone git@github.com:republicwireless-open/webmercator
-    cd webmercator
-    python setup.py install
+    $ git clone git@github.com:republicwireless-open/webmercator
+    $ cd webmercator
+    $ python setup.py install
 
     # only install; no need to clone
-    pip install git+https://github.com/republicwireless-open/webmercator@master
+    $ pip install git+https://github.com/republicwireless-open/webmercator@master
 
 Or for PyPi releases
 
-.. code-block:: shell
-    pip install webmercator>=0.1.0
+.. code-block:: bash
+
+    $ pip install webmercator>=0.1.0
 
 
 Running the tests
@@ -50,24 +52,25 @@ Running the tests
 
 Tests can be run in many ways:
 
-.. code-block:: shell
+.. code-block:: bash
+
     # runs all tests, in all environments
-    path/to/tox
+    $ path/to/tox
 
     # runs all tests, only in Python 2.7
-    path/to/tox -e py27
+    $ path/to/tox -e py27
 
     # runs specific test class, only in Python 3.6
-    path/to/tox -e py36 tests/point.py
+    $ path/to/tox -e py36 tests/point.py
 
     # runs specific test class, only in Python 3.6
-    path/to/tox -e py36 tests/point.py:TestPoint
+    $ path/to/tox -e py36 tests/point.py:TestPoint
 
     # runs specific test class, only in Python 3.6
-    path/to/tox -e py36 tests/point.py:TestPoint.test_init_empty
+    $ path/to/tox -e py36 tests/point.py:TestPoint.test_init_empty
 
     # only runs style guide tests
-    path/to/tox -e flake8
+    $ path/to/tox -e flake8
 
 Contributing
 ------------
