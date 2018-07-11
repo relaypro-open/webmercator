@@ -8,7 +8,7 @@ WebMercator
 .. image:: https://codecov.io/gh/republicwireless-open/webmercator/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/republicwireless-open/webmercator
 
-.. image:: https://img.shields.io/pypi/v/webmercator.svg?style=flat
+.. image:: https://img.shields.io/pypi/v/webmercator.svg
     :target: https://pypi.python.org/pypi/webmercator
 
 .. image:: https://img.shields.io/badge/License-MIT-yellow.svg
