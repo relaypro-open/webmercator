@@ -44,7 +44,7 @@ Or for PyPi releases
 
 .. code-block:: bash
 
-    $ pip install webmercator>=0.1.0
+    $ pip install webmercator>=0.1.2
 
 
 Running the tests
