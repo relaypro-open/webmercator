@@ -85,7 +85,7 @@ Authors
 * `Dayne Batten <https://github.com/daynebatten>`_
 * `Dillon Stadther <https://github.com/dlstadther>`_
 
-See also the list of [contributors](https://github.com/republicwireless-open/webmercator/contributors) who participated in this project.
+See also the list of `contributors <https://github.com/republicwireless-open/webmercator/contributors>`_ who participated in this project.
 
 License
 -------
