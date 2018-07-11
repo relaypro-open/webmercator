@@ -43,7 +43,7 @@ setup(
         'webmercator',
         'tests'
     ],
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
