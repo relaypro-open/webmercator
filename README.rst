@@ -82,8 +82,8 @@ We use `SemVer <http://semver.org/>`_ for versioning. For the versions available
 Authors
 -------
 
-* `**Dayne Batten** <https://github.com/daynebatten>`_ - `Republic Wireless <https://republicwireless.com>`_
-* `**Dillon Stadther** <https://github.com/dlstadther>`_ - `Republic Wireless <https://republicwireless.com>`_
+* `Dayne Batten <https://github.com/daynebatten>`_ - `Republic Wireless <https://republicwireless.com>`_
+* `Dillon Stadther <https://github.com/dlstadther>`_ - `Republic Wireless <https://republicwireless.com>`_
 
 See also the list of [contributors](https://github.com/republicwireless-open/webmercator/contributors) who participated in this project.
 
