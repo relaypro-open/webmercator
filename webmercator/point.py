@@ -90,7 +90,7 @@ class Point(object):
     @property
     def meter_x(self):
         """ Rounds to nearest nm """
-        if self.longitude:
+        if self.longitude is not None:
             meter_x = (self.longitude / 360) * EARTH_CIRCUMFERENCE_METERS
             return round(meter_x, self.metric_exp)
 
@@ -102,7 +102,7 @@ class Point(object):
     @property
     def meter_y(self):
         """ Rounds to nearest nm """
-        if self.latitude:
+        if self.latitude is not None:
             meter_y = (math.log(math.tan(math.pi / 4 + ((self.latitude * math.pi) / 180) / 2))) * EARTH_RADIUS_METERS
             return round(meter_y, self.metric_exp)
 
@@ -125,7 +125,7 @@ class Point(object):
 
     @property
     def pixel_x(self):
-        if self.longitude:
+        if self.longitude is not None:
             return round(((self.longitude + 180) / 360) * 256 * 2 ** self.zoom_level)
 
     @pixel_x.setter
@@ -135,7 +135,7 @@ class Point(object):
 
     @property
     def pixel_y(self):
-        if self.latitude:
+        if self.latitude is not None:
             sin_lat = math.sin(math.radians(self.latitude))
             return round((0.5 - math.log((1 + sin_lat) / (1 - sin_lat)) / (4 * math.pi)) * self.map_size)
 
