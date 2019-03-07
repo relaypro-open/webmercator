@@ -34,7 +34,7 @@ def read(fname):
 
 setup(
     name='webmercator',
-    version='0.1.3',
+    version='0.1.4',
     description='Mercator coordinate manipulation for tile systems',
     author='Dayne Batten and Dillon Stadther',
     url='https://github.com/republicwireless-open/webmercator',
