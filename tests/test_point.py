@@ -141,11 +141,21 @@ class TestPoint(unittest.TestCase):
 
     def test_get_set_tile_x(self):
         self.assertIsNone(self.pt_null.tile_x)
+
+        # verify tile_x of 0 does not result in null
+        self.pt_null.tile_x = 0
+        self.assertIsNotNone(self.pt_null.tile_x)
+
         self.pt_null.tile_x = self.tile_x_14
         self.assertEqual(self.pt_null.tile_x, self.tile_x_14)
 
     def test_get_set_tile_y(self):
         self.assertIsNone(self.pt_null.tile_y)
+
+        # verify tile_y of 0 does not result in null
+        self.pt_null.tile_y = 0
+        self.assertIsNotNone(self.pt_null.tile_y)
+
         self.pt_null.tile_y = self.tile_y_14
         self.assertEqual(self.pt_null.tile_y, self.tile_y_14)
 

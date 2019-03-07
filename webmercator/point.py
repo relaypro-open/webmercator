@@ -145,7 +145,8 @@ class Point(object):
 
     @property
     def tile_x(self):
-        return int(self.pixel_x / 256) if self.pixel_x else None
+        if self.pixel_x is not None:
+            return int(self.pixel_x / 256)
 
     @tile_x.setter
     def tile_x(self, value):
@@ -153,7 +154,8 @@ class Point(object):
 
     @property
     def tile_y(self):
-        return int(self.pixel_y / 256) if self.pixel_y else None
+        if self.pixel_y is not None:
+            return int(self.pixel_y / 256)
 
     @tile_y.setter
     def tile_y(self, value):
